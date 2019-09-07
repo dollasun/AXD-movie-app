@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Movify</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="black">
+  <nav class="black" role="navigation">
+    <div class="nav-wrapper container movie_nav">
+      <div class="brand-logo movie_brand">
+        <img src="img/1.png" alt="">
+        <h3>AXD</h3>
+      </div>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <form id="searchForm">
+
+            <div class="input-field">
+              <i class="material-icons prefix">search</i>
+              <input class="search white-text" id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Enter Movie Name</label>
+            </div>
+
+
+
+          </form>
+
+
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+
+    <div class="movieInfo">
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <div class="footer_flex">
+            <div class="brand-logo left">
+              <img src="img/1.png" alt="">
+              <h3>AXD</h3>
+            </div>
+            <div class="p_div">
+              <p class="footer_p"> copyright &copy; 2019 Osayuki Aganwonyi | All right reserved</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    movie_info();
+  </script>
+
+
+
+</body>
+
+</html>

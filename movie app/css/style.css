@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  overflow: auto;
+}
+ 
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav .brand-logo{
+
+  color: #B21111;
+  font-family: 'Raleway', sans-serif;
+}
+
+.brand-logo img{
+  width: 30px;
+  height: 30px;
+}
+.brand-logo h3{
+  color: #B21111;
+  font-size: 25px;
+  font-weight: 700;
+}
+.brand-logo{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+}
+
+.input-field .prefix.active {
+
+  color: rgb(177, 177, 177) !important;
+}
+
+.footer_p{
+  padding: 10px;
+  font-size: 12px;
+  color: rgb(155, 155, 155);
+  margin-top: 30px;
+}
+
+.footer_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.movie_nav{
+  margin-top: 5px;
+  margin-bottom: 100px !important;
+  padding-bottom: 20px;
+}
+
+@media (max-width:620px){
+.horizontal{
+  display:block !important;
+  min-width: 300px !important;
+  margin: 20px auto;
+}
+
+.card-image{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.card-image img{
+  width: 100%;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+.card-stacked {
+  min-width: 300px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+
+}
+
+@media (max-width:450px){
+.container{
+   width: 95%;
+}
+.input-field{padding: 0;
+  margin-top: -5px !important;
+  width: 180px;
+}
+.input-field i{
+  padding: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 5px !important;
+}
+.search{
+  padding: 0 !important;
+}
+
+.footer_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer_p{
+  margin-top: 0;
+  padding: 5px;
+}
+}
